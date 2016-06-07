@@ -59,7 +59,7 @@ To do that,go to
 >***path/to/Airline Sentiment/config/database.js*** 
  
  2. Run the database. Run command ***mongod*** in terminal or command prompt to start the mongoDB server.
- 3.  Install the dependencies.run npm install before starting the project. Go to terminal and run this:
+ 3. Install the dependencies.run npm install before starting the project. Go to terminal and run this:
 
 >***path\to\Airline Sentiment>npm install***
 
@@ -77,7 +77,8 @@ This will Start a server which will serve the ***http://localhost:3000/*** url.
 * congfig/database.js file which has db configuration in it.
 * package.json file for listing dependencies
 
->Contributors
+Contributors
+------------
 * Balaji Jagadeshan
 * Dhananjay Sherigar
 * Harish Alagesan
