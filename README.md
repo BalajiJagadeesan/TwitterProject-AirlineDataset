@@ -65,14 +65,14 @@ To do that,go to
 
 This will resolve all the dependencies listed in *package.json* file. Once its is done downloading, you should have a node_modules directory which contains all of the required dependencies.
 
- 4. To run the application, run the command
+ > To run the application, run the command
 
 >***path\to\Airline Sentiment>npm start***
 
 This will Start a server which will serve the ***http://localhost:3000/*** url.
  
 
->Configuration
+***Configuration***
 * We have bin/www file to configure port for the application.
 * congfig/database.js file which has db configuration in it.
 * package.json file for listing dependencies
