@@ -1,0 +1,31 @@
+<h3>Results</h3>
+
+    <table class="table table-bordered">
+	<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name</th>
+		<th>Text</th>
+		<th>CreatedAt</th>
+		<th>Details</th>
+	</tr>
+	</thead>
+	<tbody>
+    <tr>
+    <tr dir-paginate="row in results|itemsPerPage:7">
+
+		<td>{{row._unit_id}}</td>
+		<td>{{row.name}}</td>
+		<td>{{row.text}}</td>
+		<td>{{row.tweet_created}}</td>
+        <td><a href=/#/details/{{row._id}}>Details</a></td>
+	</tr>
+	</tbody>
+
+</table>
+<dir-pagination-controls
+        max-size="10"
+        direction-links="true"
+        boundary-links="true" >
+    </dir-pagination-controls>
+    <div ui-sref="search"><button class="btn btn-info">Search Again</button></div>

@@ -1,0 +1,36 @@
+<div class="col-xs-4">
+<h3> Details </h3>
+
+<form role="form" name="detailsForm" id="detailsForm">
+  <div class="form-group">
+      <label >User ID:</label>
+      <label >{{tweet._unit_id}}</label>
+  </div>
+    <div class="form-group">
+      <label >User Name:</label>
+      <label >{{tweet.name}}</label>
+  </div>
+    <div class="form-group">
+      <label >Text:</label>
+      <label >{{tweet.text}}</label>
+  </div>
+    <div class="form-group">
+      <label >Created At:</label>
+      <label >{{tweet.tweet_created}}</label>
+  </div>
+    <div class="form-group">
+      <label >Comments:</label>
+      <label >{{commentText}}</label>
+  </div>
+  <div class="form-group">
+      <input type="text" class="form-control" id="inputComment" ng-model="details.comment">
+      
+  </div>
+  </div>
+  <div>
+    <span><button type="submit" class="btn btn-success" ng-click="addComment()">Add Comment</button></span>
+    <span ui-sref="search"><button class="btn btn-info">Search Again</button>
+    </span>
+    
+</form>
+

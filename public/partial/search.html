@@ -1,0 +1,25 @@
+
+<div class="col-xs-4">
+<h3> Search data </h3>
+<form role="form" name="queryForm" id="queryForm" style="color:#0047B3">
+  <div class="form-group">
+      <label for="keyword">Keyword:</label>
+      <input type="text" class="form-control" id="keyword" placeholder="Enter Keyword here" ng-model="queryData.keyword">
+  </div>
+  <div class="form-group">
+      <label for="unitID">Id:</label>
+      <input type="text" class="form-control" id="unitID" placeholder="Enter Id here" ng-model="queryData.unitID">
+  </div>
+  <div class="form-group">
+      <label for="Name">Name:</label>
+      <input type="text" class="form-control" id="Name" placeholder="Enter Name here" ng-model="queryData.Name">
+  </div>
+ <div class="form-group">
+      <label for="TweetTime">Time Tweeted:</label>
+      <input type="text" class="form-control" placeholder="Provide the Date in dd-mm-yyyy hh:mm" id="TweetTime" ng-model="queryData.TweetTime">
+  </div>
+
+ <button type="submit" class="btn btn-success btn-lg" ng-click="queryTweets()">Search</button>
+
+</form>
+</div>
