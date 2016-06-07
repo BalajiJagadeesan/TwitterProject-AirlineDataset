@@ -50,6 +50,10 @@ HTML and Bootstrap to create views.
 AngularJS to create the front end view.
 JavaScript for validation
 
+Dataset:
+--------
+https://www.kaggle.com/crowdflower/twitter-airline-sentiment
+
 
 Installation
 ----------------
