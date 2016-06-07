@@ -54,6 +54,8 @@ Dataset:
 --------
 https://www.kaggle.com/crowdflower/twitter-airline-sentiment
 
+Dataset is already hosted in mlab (if not working, locally host the file and give path in /config/database.js) 
+
 
 Installation
 ----------------
