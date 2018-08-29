@@ -7,8 +7,6 @@ Introduction
 
 This application allows user to perform various search queries on the available Airline sentiment data collection  using ***MEAN Stack***
 
-Sample Link : https://airlinetweet.herokuapp.com/#/home
-
 Functionalities
 
  1. Database Connection Process:
